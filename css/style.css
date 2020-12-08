@@ -1,0 +1,74 @@
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 80px;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: #111;
+    color: white;
+}
+.active{
+    background-color: #9ea89e;
+}
+#li1{
+    float: right;
+}
+form{
+    border: 2px solid #f1f1f1;
+    color: lightgray;
+}
+input[type=text],input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.container1{
+    padding: 19px;
+}
+.login1{
+    width:500px;
+    height:235px;
+    margin:auto;
+    margin-top:300px;
+    text-align: left;   
+}
+#m2{
+    color:gray;
+    text-align: center;
+}
+#m1{
+    margin-top:200px;
+}
+th, td, p, input {
+    font:14px Verdana;
+    color:gray;
+}
+table, th, td 
+{
+    border: solid 1px #DDD;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+}
+th {
+    font-weight:bold;
+    color:gray;
+}
